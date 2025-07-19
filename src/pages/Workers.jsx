@@ -16,10 +16,10 @@ const workers = [
 ];
 
 
-export default function Worker() {
+export default function Workers() {
   return (
     <div
-      className="h-screen w-screen bg-cover bg-center text-white px-8 py-16"
+      className="h-full w-full bg-cover bg-center text-white px-8 py-16"
       style={{ backgroundImage: `url(${bg1})` }}
     >
       <div className="max-w-1xl mx-auto">

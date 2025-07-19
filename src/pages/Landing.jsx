@@ -9,7 +9,7 @@ export default function Landing() {
       className="h-screen bg-cover bg-center flex flex-col items-center justify-center text-white"
       style={{ backgroundImage: `url(${bg})` }}
     >
-      <h1 className="text-9xl font-bold">TRABAJO</h1>
+      <h1 className="text-9xl font-bold">TRAVAJO</h1>
       <p className="text-4xl mt-2 italic">- bridging the gap -</p>
       <div className="mt-10 flex gap-6">
         <Link to="/workerdb">
@@ -18,11 +18,13 @@ export default function Landing() {
           </button>
         </Link>
       </div>
-      <div className="mt-3 flex gap-2">
-        <button className="bg-blue-600 text-white px-4 py-2 rounded-xl hover:bg-blue-700 transition duration-300 font-medium">
-          Looking for Workers?
-        </button>
-      </div>
+      <div className="mt-3 flex gap-2"></div>
+        <Link to="/nonworker">
+          <button className="bg-blue-600 text-white px-4 py-2 rounded-xl hover:bg-blue-700 transition duration-300 font-medium">
+            Looking for Workers?
+          </button>
+        </Link>
+      
     </div>
   );
 }
